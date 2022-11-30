@@ -1,0 +1,26 @@
+The following instructions are to be followed for calculating the alpha lath thickness and volume fraction in Ti64 alloys. 
+Packages used in python:
+1. time 
+2. os
+3. cv2 (this is the opencv package we will be utilizing)
+4.xlswriter
+5.numpy
+
+The code was successfully executed in Spyder (python version 3.7)
+
+Step 1: Select the directoy and place both lock and key files in the same directory.
+Step 2: Run the Lock.py script
+Step 3: In Key.py python script:
+	3.1: Assign the path for the images (for example 'D:/test image', if my folder name is test image)
+	3.2: Assign the name of the excel sheet
+	3.3: Assign all the process parameters 
+Step 4: Run the Key.py script 
+
+Results will be available in the excel sheet each seperated by '~' and in the following order:
+File Name~Mean Intercept length~mean Inverse intercept length~volume fraction~lath thickness
+
+Select the first column and perform the following:
+Data -> Text to columns -> Delimited -> tab and other: ~ -> General -> Finish
+
+A parameter text file will also be available along with the few saved images containing the tuned in parameters. 
+

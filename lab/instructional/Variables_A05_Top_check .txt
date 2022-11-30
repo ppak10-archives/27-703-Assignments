@@ -1,0 +1,11 @@
+Distance in pixels - 187
+Distance in micrometer scale on SEM image - 10
+Threshold_Type - cv2.ADAPTIVE_THRESH_GAUSSIAN_C
+Angle Step Size - 180
+Median Blur - 3
+Adaptive threshold - 11,2.5
+Kernal Size - (3,3)
+Denoise - (2,2,2)
+Small Objects connectivity - 2
+Small Holes connectivity - 1
+Small Holes area_threshold - 55
